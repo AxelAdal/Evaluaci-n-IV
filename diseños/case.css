@@ -1,0 +1,80 @@
+.How_to{
+    width: 100%;
+    height: 80rem;
+    background-color: rgb(61, 134, 218);
+    background-position: center;
+    
+    position: relative;
+}
+/*Caja padre de los textos How to*/
+.tio{
+    background-color: black;
+    width: 100%;
+    height: 20rem;
+}
+/*las cualidades del titulo*/
+.how{
+    display: flex;
+    align-items: center;
+    font-size: 1.7rem;
+    font-weight: 600;
+    color: var(--color3);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+/*La caja de los textos h4 y p*/
+.centro{
+    margin-top: 1rem;
+    text-align: center;
+}
+.centro h4{
+    font-size: 3rem;
+}
+.centro p{
+    color: var(--color4);
+    font-size: 1.5rem;
+   margin-top: 1rem;
+}
+.iconos1{
+    background-color: blueviolet;
+    width: 100%;
+    height: 17rem;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+}
+.iconos2{
+    background-color: orange;
+    width: 50%;
+    height: 10rem;
+}
+.iconos3{
+    background-color: rgb(102, 255, 0);
+    width: 100%;
+    height: 17rem;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+}
+.iconos4{
+    background-color: rgb(255, 0, 212);
+    width: 50%;
+    height: 10rem;
+}
+.img1{
+    width: 5rem;
+    height: 5rem;
+}
+.img2{
+    width: 5rem;
+    height: 5rem;
+}
+.img3{
+    width: 5rem;
+    height: 5rem;
+}
+.img4{
+    width: 5rem;
+    height: 5rem;
+}

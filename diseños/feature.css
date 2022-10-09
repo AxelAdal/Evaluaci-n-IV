@@ -1,0 +1,156 @@
+/*Es la modificacion de la seccion*/
+.Feature{
+    width: 100%;
+    height: 80rem;
+    background-position: center;
+    
+    position: relative;
+}
+/*Es la caja padre el div que lleva dentro todo*/
+.padre{
+    width: 100%;
+    height: 79rem;
+}
+/*El texto de linea feature naranja*/
+.texline{
+    display: flex;
+    align-items: center;
+    margin-left: 1rem;
+    font-size: 1.7rem;
+    font-weight: 600;
+    color: var(--color3);
+}
+/*Es el div que lleva los textos y botones*/
+.contenido{
+    width: 100%;
+    height: 54rem;
+    margin-top: 1rem;
+}
+/*caja de las barras y boton naranja*/
+.email{
+    background-color: rgb(231, 219, 219);
+    display: flex;
+     width: 90%;
+     height: 5rem;
+     margin-top: 2rem;
+     margin-left: 2rem;
+     border-radius: 5rem;
+}
+/*El texto dentro de la barra del boton Before*/
+.email h1{
+    margin-top: 1.5rem;
+    margin-left: 1.5rem;
+    font-size: 1.5rem;
+    color: var(--color4);
+}
+/*El boton naranja de Before*/
+.email a{
+    height: 4rem;
+    text-decoration: none;
+    display: block;
+    color: var(--color2);
+    background-color: var(--color3);
+    width: 16rem;
+    border-radius: 12rem;
+    margin-left: 2.7rem;
+    margin-top: 0.5rem;
+
+    font-size: 1.5rem;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+/*Tamaño de la imagen*/
+.contenido img{
+    width: 100%;
+    height: auto;
+    margin-top: 1rem;
+    border-radius: 2rem;
+}
+.contenido h4{
+    margin-left: 2rem;
+    font-size: 4rem;
+}
+.contenido p{
+    margin-left: 2rem;
+    font-size: 1.5rem;
+    margin-top: 2rem;
+    color: var(--color4);
+}
+/*Los coleros de los textos*/
+.We{
+    color: var(--color2);
+}
+.Am{
+    color: var(--color3);
+}
+.Be{
+    color: var(--color3);
+}
+@media only screen and (min-width: 1366px) {
+    .contenido{
+        height: 50rem;
+    }
+    /*caja de las barras y boton naranja*/
+.email{
+    background-color: rgb(231, 219, 219);
+    display: flex;
+     width: 90%;
+     height: 5rem;
+     margin-top: 2rem;
+     margin-left: 2rem;
+     border-radius: 5rem;
+}
+/*El texto dentro de la barra del boton Before*/
+.email h1{
+    margin-top: 1.5rem;
+    margin-left: 1.5rem;
+    font-size: 1.5rem;
+    color: var(--color4);
+}
+/*El boton naranja de Before*/
+.email a{
+    height: 4rem;
+    text-decoration: none;
+    display: block;
+    color: var(--color2);
+    background-color: var(--color3);
+    width: 16rem;
+    border-radius: 12rem;
+    margin-left: 2.7rem;
+    margin-top: 0.5rem;
+
+    font-size: 1.5rem;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+/*Tamaño de la imagen*/
+/*Esto hay que cambiarlo en cuanto a auto*/
+.contenido img{
+    width: 45rem;
+    height: 45rem;/*Cambiarlo*/
+    margin-top: 1rem;
+    border-radius: 2rem;
+}
+     .texline{
+    display: flex;
+    align-items: center;
+    margin-left: 6rem;
+    color: var(--color3);
+    } 
+
+    hr{
+
+    width: 3rem;
+
+    }
+    .contenido p{
+        margin-left: 2rem;
+        font-size: 2rem;
+        margin-top: 2rem;
+        color: var(--color4);
+    }
+}
